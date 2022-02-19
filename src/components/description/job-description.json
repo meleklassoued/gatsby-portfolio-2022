@@ -2,13 +2,17 @@
   "collectionName": "components_description_job_descriptions",
   "info": {
     "displayName": "job_description",
-    "icon": "apple-alt",
+    "icon": "angle-double-right",
     "description": ""
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "richtext",
       "required": true
     }
   }

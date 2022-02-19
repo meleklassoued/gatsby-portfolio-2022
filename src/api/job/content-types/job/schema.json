@@ -16,18 +16,16 @@
       "type": "string",
       "required": true
     },
-    "position": {
-      "type": "string",
-      "required": true
-    },
     "date": {
       "type": "string",
       "required": true
     },
-    "desc": {
-      "type": "component",
-      "repeatable": true,
-      "component": "description.job-description",
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
       "required": true
     }
   }
