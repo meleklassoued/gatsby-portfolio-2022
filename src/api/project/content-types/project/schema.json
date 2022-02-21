@@ -20,7 +20,7 @@
       "type": "text",
       "required": true
     },
-    "image": {
+    "images": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -42,7 +42,7 @@
       "default": false,
       "required": true
     },
-    "stack": {
+    "stacks": {
       "type": "component",
       "repeatable": true,
       "component": "description.stack-item",
